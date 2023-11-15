@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="http://web.iit.edu/sites/web/themes/iit_web/favicon.ico">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9e7j1hGg-RjT01_O4xbbQpsXKcc3NkE0&callback=console.debug&libraries=maps,marker&v=beta"></script>
   </head>
   <body>
     <header> 
@@ -23,18 +24,12 @@
     </header>
     <div id="main-content">
       <section>
-
-    <!--The div element for the map -->
-    <div id="map"></div>
-
-    <!-- prettier-ignore -->
-   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9e7j1hGg-RjT01_O4xbbQpsXKcc3NkE0&callback=console.debug&libraries=maps,marker&v=beta"></script>
-
-   <gmp-map center="41.83505630493164,-87.62705993652344" zoom="14" map-id="DEMO_MAP_ID">
-      <gmp-advanced-marker position="41.83505630493164,-87.62705993652344" title="My location">
-      </gmp-advanced-marker>
-    </gmp-map>
-
+        <gmp-map center="41.83505630493164,-87.62705993652344" zoom="14" map-id="DEMO_MAP_ID">
+          <gmp-advanced-marker position="41.83505630493164,-87.62705993652344" title="My location">
+          </gmp-advanced-marker>
+        </gmp-map>
+      </section>
+      <section>
 <div>
 PROJECT THREE: ADD JAVASCRIPT
 Project Description
