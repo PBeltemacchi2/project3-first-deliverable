@@ -30,9 +30,9 @@ ul {
 
 nav ul li { display: inline-block; }
 
-#map {
-    height: 400px; /* The height is 400 pixels */
-    width: 100%; /* The width is the width of the web page */
+#map gmp-map {
+  height: 600px;
+  width: 50%;
 }
 
 #navbar-container ul li a::after { 
