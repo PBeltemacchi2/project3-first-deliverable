@@ -92,3 +92,10 @@ element.style {
 }
 
 body#fixed { width: 62rem; }
+
+@media (min-width: 1000px) {
+  h1 { 
+    color: #f00;
+  }
+}
+
