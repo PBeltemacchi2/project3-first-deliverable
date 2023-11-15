@@ -31,8 +31,8 @@ ul {
 nav ul li { display: inline-block; }
 
 #map gmp-map {
-  height: 600px;
-  width: 50%;
+  height: 40rem;
+  max-width: 40rem;
 }
 
 #navbar-container ul li a::after { 
