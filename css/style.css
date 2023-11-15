@@ -38,6 +38,10 @@ element.style {
   color: #fff;
 }
 
+#home #navbar-container ul li:last-child a::after { 
+  content: ""; 
+}
+
 #main-navbar {
   background-color: #4d2406;
   color: #ffffff;
@@ -98,15 +102,19 @@ element.style {
 
 body#fixed { width: 62rem; }
 
-
-
 @media (max-width: 550px) {
-    h1 { color: #f00; }
-    #home #main-content .profile { 
-      width: 100%;
-    }
-    #home #main-content .profile img { 
-      float: none; 
-      margin: 0 auto;
-    }
+
+  h1 { color: #f5b404; }
+
+  #home #main-content .profile { width: 100%; }
+
+  #home #main-content .profile img { 
+    float: none; 
+    margin: 0 auto;
+  }
+
+  #home #navbar-container ul li { display: block; }
+
+  #home #navbar-container ul li a::after { content: ""; }
+
 }
