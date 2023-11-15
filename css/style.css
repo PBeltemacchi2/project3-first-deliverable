@@ -30,7 +30,7 @@ ul {
 
 nav ul li { display: inline-block; }
 
-#map gmp-map {
+#map-page #map {
   height: 40rem;
   max-width: 40rem;
 }
