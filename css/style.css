@@ -106,7 +106,10 @@ body#fixed { width: 62rem; }
 
   h1 { color: #f5b404; }
 
-  #home #main-content .profile { width: 100%; }
+   #home #main-content .profile { 
+    width: 100%; 
+    text-align: center;  
+  }
 
   #home #main-content .profile img { 
     float: none; 
