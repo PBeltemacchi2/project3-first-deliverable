@@ -22,7 +22,7 @@ h1 { color: #4d2406; }
 
 h2, h3, h4 ,h5 { color: #f5b404; }
 
-nav ul {  
+ul {  
   list-style-type: none;
   margin: 0;
   padding-left: 1rem;
@@ -102,11 +102,11 @@ element.style {
 
 body#fixed { width: 62rem; }
 
-@media (max-width: 6050px) {
+@media (max-width: 600px) {
 
   h1 { color: #f5b404; }
 
-   #home #main-content .profile { 
+  #home #main-content .profile { 
     width: 100%; 
     text-align: center;  
   }
@@ -119,5 +119,22 @@ body#fixed { width: 62rem; }
   #home #navbar-container ul li { display: block; }
 
   #home #navbar-container ul li a::after { content: ""; }
+
+}
+
+@media (max-width: 500px) {
+
+  body { width: 100%; }
+
+  h1 { 
+    color: #000000; 
+    font-weight: bold;
+  }
+
+  h2 { font-size: 1.2em; }
+
+  #main-content { padding: 0 0.75rem 1rem; }
+
+  #main-navbar #navbar-container ul { left: 17%; top: 6%; }
 
 }
