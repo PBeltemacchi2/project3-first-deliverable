@@ -33,7 +33,10 @@ nav ul li { display: inline-block; }
 element.style {
 }
 
-#home #navbar-container ul li a::after { content: " | "; }
+#home #navbar-container ul li a::after { 
+  content: " | "; 
+  color: #fff;
+}
 
 #main-navbar {
   background-color: #4d2406;
