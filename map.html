@@ -6,10 +6,9 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="https://web.iit.edu/sites/web/themes/iit_web/favicon.ico">
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9e7j1hGg-RjT01_O4xbbQpsXKcc3NkE0&callback=console.debug&libraries=maps,marker&v=beta">
     </script>
   </head>
-  <body id="map">
+  <body id="map-page">
     <header> 
       <nav id="main-navbar">
         <img class="nav-img" alt="image of Paige Beltemacchi" src="img/paige-beltemacchi.jpg">
@@ -39,6 +38,9 @@
         </p>
       </section>
       <section>
+        <div id="map"></div>
+      </section>
+      <section>
         <gmp-map center="41.83505630493164,-87.62705993652344" zoom="14" map-id="DEMO_MAP_ID">
           <gmp-advanced-marker position="41.83505630493164,-87.62705993652344" title="Illinois Tech">
           </gmp-advanced-marker>
@@ -48,6 +50,8 @@
           </gmp-advanced-marker>
         </gmp-map>
       </section>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9e7j1hGg-RjT01_O4xbbQpsXKcc3NkE0&callback=initMap"></script>
+    <script src="js/map.js"></script>
     </div>
     <div id="footer">
         <p>© 2023 Paige Beltemacchi</p>
